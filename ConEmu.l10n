@@ -115,18 +115,22 @@
         },
         "cbClinkWebPage": {
             "en": "Open clink's web page https://mridgers.github.io/clink/ in your browser",
+            "ru": "Открыть веб-страницу ‘Clink’ https://mridgers.github.io/clink/ в браузере",
             "id": 2614
         },
         "cbCloseConsoleConfirm": {
             "en": "Show confirmation before closing tab or page (tab ‘Close’ menu item)",
+            "ru": "Показать подтверждение перед закрытием вкладки или страницы (пункт меню ‘Закрыть’)",
             "id": 2179
         },
         "cbCloseEditViewConfirm": {
             "en": "Show confirmation before closing Far Manager editor or viewer tab",
+            "ru": "Показать подтверждение перед закрытием Far Manager или вкладки просмотра",
             "id": 2517
         },
         "cbCloseWindowConfirm": {
             "en": "Show confirmation before closing ConEmu window (cross clicking)",
+            "ru": "Показать подтверждение перед закрытием окна ConEmu (щелчок по крестику)",
             "id": 2757
         },
         "cbCmdTaskbarCommands": {
@@ -151,10 +155,12 @@
         },
         "cbComspecUpdateEnv": {
             "en": "ConEmu may update %ComSpec% variable to selected command processor",
+            "ru": "ConEmu может обновить переменную %ComSpec% для выбранного командного процессора",
             "id": 2160
         },
         "cbConfirmCloseRunning": {
             "en": "If there are two or more user processes in the console",
+            "ru": "Если в консоли два или более пользовательских процесса",
             "id": 2758
         },
         "cbConsoleExceptionHandler": {
@@ -166,6 +172,7 @@
         },
         "cbCTSAutoCopy": {
             "en": "Copy immediately on left mouse button up (when selecting with mouse)",
+            "ru": "Копировать сразу при отпускании левой кнопки мыши (при выборе мышью)",
             "id": 2340
         },
         "cbCTSBashMargin": {
@@ -194,6 +201,7 @@
         },
         "cbCTSEndCopyBefore": {
             "en": "Copy selection to clipboard before selection region reset",
+            "ru": "Скопировать выделенную область в буфер обмена до сброса выделенной области",
             "id": 2579
         },
         "cbCTSEndOnKeyPress": {
@@ -227,6 +235,7 @@
         },
         "cbCTSResetOnRelease": {
             "en": "Reset selection region on left mouse button up (when selecting with mouse)",
+            "ru": "Сбросить область выбора отпусканием левой кнопки мыши (при выборе с помощью мыши)",
             "id": 3029
         },
         "cbCTSShiftArrowStartSel": {
@@ -241,6 +250,7 @@
         },
         "cbCTSTrimTrailing": {
             "en": "3rd-state means ‘Only for Text selection’",
+            "ru": "3-е состояние означает ‘Только для выделения текста’",
             "id": 2365
         },
         "cbCursorBlink": {
@@ -308,6 +318,7 @@
         },
         "cbDragImage": {
             "en": "Create and display overlay transparent snapshot of files are dragged",
+            "ru": "Создание и отображение наложения прозрачного снимка перетаскиваемых файлов",
             "id": 1548
         },
         "cbDragL": {
@@ -452,6 +463,7 @@
         },
         "cbInsideSyncDir": {
             "en": "Sync current directory (Explorer -> ConEmu)",
+            "ru": "Синхр. текущей директории (Проводник -> ConEmu)",
             "id": 2397
         },
         "cbInstallKeybHooks": {
@@ -507,6 +519,7 @@
         },
         "cbMouseDragWindow": {
             "en": "Allows to move ConEmu window via dragging it by client area.",
+            "ru": "Позволяет перемещать окно ConEmu, перетаскивая его по клиентской области.",
             "id": 3060
         },
         "cbMultiCon": {
@@ -532,6 +545,7 @@
         },
         "cbNumberInCaption": {
             "en": "Show [ActiveCon/TotalCon] in window caption",
+            "ru": "Показать [ActiveCon/TotalCon] в заголовке окна",
             "id": 2480
         },
         "cbOneTabPerGroup": {
@@ -645,14 +659,17 @@
         },
         "cbShowHelpTooltips": {
             "en": "Don't like tooltips in settings dialog? Disable this feature.",
+            "ru": "Не нравятся всплывающие подсказки в диалоге настроек? Отключите эту функцию.",
             "id": 2592
         },
         "cbShowWasHiddenMsg": {
             "en": "Show ‘ConEmu was hidden from some program’ message in TSA",
+            "ru": "Показать ‘ConEmu был скрыт от сообщений какой-либо программы’ в TSA",
             "id": 2435
         },
         "cbShowWasSetOnTopMsg": {
             "en": "Show ‘Some external program brought ConEmu OnTop. Revert?’ confirmation box",
+            "ru": "Показать ‘Some external program brought ConEmu OnTop. Revert?’ окно подтверждения",
             "id": 2854
         },
         "cbSingleInstance": {
@@ -694,6 +711,7 @@
         },
         "cbSnapToDesktopEdges": {
             "en": "Lock ConEmu window inside desktop work area",
+            "ru": "Блокировка окна ConEmu внутри рабочей области рабочего стола",
             "id": 2403
         },
         "cbStartFarRestoreEditors": {
@@ -863,14 +881,17 @@
         },
         "lbConClrPopBack": {
             "en": "Specify default background popup color for new consoles",
+            "ru": "Укажите цвет фона всплывающего окна по умолчанию для новых консолей.",
             "id": 2402
         },
         "lbConClrPopText": {
             "en": "Specify default foreground (font) popup color for new consoles",
+            "ru": "Укажите цвет всплывающего окна по умолчанию (шрифт) для новых консолей",
             "id": 2401
         },
         "lbConClrText": {
             "en": "Specify default foreground (font) text color for new consoles",
+            "ru": "Укажите цвет текста по умолчанию (шрифт) для новых консолей",
             "id": 2398
         },
         "lbCTSActAlways": {
@@ -935,6 +956,7 @@
         },
         "lbRDragKey": {
             "en": "Drag with right mouse button, only when pressed...",
+            "ru": "Перетаскивание правой кнопкой мыши, только при нажатии ...",
             "id": 1503
         },
         "rbActivityComm": {
@@ -974,10 +996,12 @@
         },
         "rbComspec_OSbit": {
             "en": "64bit OS only, (System32 or SysWOW64) - use System32",
+            "ru": "Только на 64бит ОС, (System32 или SysWOW64) - используйте System32",
             "id": 2157
         },
         "rbComspec_x32": {
             "en": "64bit OS only, (System32 or SysWOW64) - use SysWOW64",
+            "ru": "Только на 64бит ОС, (System32 или SysWOW64) - используйте SysWOW64",
             "id": 2159
         },
         "rbComspecAuto": {
@@ -1011,10 +1035,12 @@
         },
         "rbScrollbarShow": {
             "en": "Always show scrollbar on the right edge of window",
+            "ru": "Всегда показывать полосу прокрутки на правом краю окна",
             "id": 2488
         },
         "rbStartLastTabs": {
             "en": "Auto save/restore (reopen) ConEmu tabs",
+            "ru": "Автосохранение/восстановление (повторное открытие) вкладок ConEmu",
             "id": 2236
         },
         "rbStartNamedTask": {
@@ -1036,6 +1062,7 @@
         },
         "rCursorH": {
             "en": "Horizontal text cursor, like native console",
+            "ru": "Горизонтальный текстовый курсор, как у native console",
             "id": 2530
         },
         "rCursorV": {
@@ -1236,6 +1263,7 @@
         },
         "tPadSize": {
             "en": "Create pad between ConEmu frame and console field",
+            "ru": "Создать отступ между рамкой ConEmu и полями консоли",
             "id": 2356
         },
         "tPerfCounters": {
@@ -1528,6 +1556,7 @@
         },
         "vkAltNumpad": {
             "en": "Start Alt+Number mode to enter unicode symbol by its hex codebase",
+            "ru": "Запустите Alt+Number mode для ввода символа юникода по его шестнадцатеричному коду",
             "id": 3028
         },
         "vkAlwaysOnTop": {
@@ -1571,6 +1600,7 @@
         },
         "vkChildSystemMenu": {
             "en": "Child GUI window system menu (PuTTY, Notepad, etc.)",
+            "ru": "Системное меню дочернего окна GUI (PuTTY, Блокнот и т.д.)",
             "id": 2577
         },
         "vkClose2Right": {
@@ -1585,6 +1615,7 @@
         },
         "vkCloseConEmu": {
             "en": "Close all tabs (same as ‘Cross’ click)",
+            "ru": "Закрыть все вкладки (так же как клик по ‘Крест’",
             "id": 2502
         },
         "vkCloseExceptCon": {
@@ -1599,6 +1630,7 @@
         },
         "vkCloseGroupPrc": {
             "en": "Close all active processes of the active group",
+            "ru": "Закрыть все активные процессы активной группы",
             "id": 2621
         },
         "vkCloseTab": {
@@ -1668,20 +1700,22 @@
         },
         "vkConUnfasten": {
             "en": "Unfasten active RealConsole from active ConEmu window",
+            "ru": "Отключить активную RealConsole из активного окна ConEmu",
             "id": 2840
         },
         "vkCtrlDown": {
             "en": "Scroll buffer one line down (disabled in Far /w)",
+            "ru": "Прокрутка буфера на одну строку вниз (отключен в Far / w)",
             "id": 2020
         },
         "vkCtrlPgDn": {
             "en": "Scroll buffer one page down (disabled in Far /w)",
-            "ru": "Буфер прокрутки на одну страницу вниз (отключен в Far /w)",
+            "ru": "Прокрутка буфера на одну страницу вниз (отключен в Far /w)",
             "id": 2022
         },
         "vkCtrlPgUp": {
             "en": "Scroll buffer one page up (disabled in Far /w)",
-            "ru": "Буфер прокрутки на одну страницу вверх (отключен в Far /w)",
+            "ru": "Прокрутка буфера на одну страницу вверх (отключен в Far /w)",
             "id": 2021
         },
         "vkCtrlShiftTab": {
@@ -1716,6 +1750,7 @@
         },
         "vkCtrlUp": {
             "en": "Scroll buffer one line up (disabled in Far /w)",
+            "ru": "Прокрутка буфера на одну строку вверх (отключен в Far / w)",
             "id": 2019
         },
         "vkCtrlWinAltSpace": {
@@ -1800,10 +1835,12 @@
         },
         "vkCTSVkCopyAll": {
             "en": "Copy: All active console text output (buffer including)",
+            "ru": "Копировать: весь активный консольный текстовый вывод (включая буфер)",
             "id": 2595
         },
         "vkCTSVkPromptClk": {
             "en": "Change prompt text cursor position with left mouse click (cmd, powershell, tcc/le, ...)",
+            "ru": "Изменение положения курсора текста подсказки с помощью левой кнопки мыши (cmd, powershell, tcc/le, ...)",
             "id": 2346
         },
         "vkCTSVkText": {
@@ -1837,6 +1874,7 @@
         },
         "vkDuplicateRoot": {
             "en": "Duplicate tab with current state of root process",
+            "ru": "Дублировать вкладку с текущим состоянием корневого процесса",
             "id": 2503
         },
         "vkDuplicateRootAs": {
@@ -1849,6 +1887,7 @@
         },
         "vkFarGotoEditorVk": {
             "en": "Highlighting: hyperlinks and compiler errors (FarGotoEditor modifier)",
+            "ru": "Подсветка: гиперссылки и ошибки компилятора (модификатор FarGotoEditor)",
             "id": 2010
         },
         "vkFindTextDlg": {
@@ -1916,6 +1955,7 @@
         },
         "vkMaximizeHeight": {
             "en": "Snap ConEmu window to the monitor's top/bottom edges (maximize height)",
+            "en": "Привязать окно ConEmu к верхнему/нижнему краям монитора (увеличить высоту)",
             "id": 2637
         },
         "vkMaximizePane": {
@@ -1925,10 +1965,12 @@
         },
         "vkMaximizeWidth": {
             "en": "Snap ConEmu window to the monitor's left/right edges (maximize width)",
+            "ru": "Привязать окно ConEmu к левому/правому краям монитора (увеличить ширину)",
             "id": 2636
         },
         "vkMinimizeRestor2": {
             "en": "Minimize/Restore (alternative)",
+            "ru": "Свернуть/Восстановить (альтернатива)",
             "id": 2413
         },
         "vkMinimizeRestore": {
@@ -1988,10 +2030,12 @@
         },
         "vkMultiNewAttach": {
             "en": "Attach existing Console or GUI application",
+            "ru": "Присоединить существующую консоль или GUI приложение",
             "id": 2314
         },
         "vkMultiNewConfirm": {
             "en": "Create new console (‘Create confirmation’ dialog)",
+            "ru": "Создать новую консоль (диалоговое окно ‘Создать подтверждение’)",
             "id": 2043
         },
         "vkMultiNewPopup": {
@@ -2035,6 +2079,7 @@
         },
         "vkPasteCygwin": {
             "en": "Paste path from clipboard in unix format",
+            "ru": "Вставить путь из буфера обмена в формате Unix",
             "id": 2492
         },
         "vkPasteDirectory": {
@@ -2126,34 +2171,42 @@
         },
         "vkShowTabsList": {
             "en": "Show opened tabs list (ignored in Far - use macro instead)",
+            "ru": "Показать список открытых вкладок (игнорируется в Far - используйте вместо этого макрос)",
             "id": 2222
         },
         "vkShowTabsList2": {
             "en": "Show opened tabs list (works in Far too)",
+            "ru": "Показать список открытых вкладок (работает и в Far)",
             "id": 2455
         },
         "vkSplitFocusDown": {
             "en": "Split: Put focus to nearest pane downward",
+            "ru": "Разделить: переместить фокус на ближайшую панель вниз",
             "id": 2611
         },
         "vkSplitFocusLeft": {
             "en": "Split: Put focus to nearest pane leftward",
+            "ru": "Разделить: переместить фокус на ближайшую панель слева",
             "id": 2612
         },
         "vkSplitFocusRight": {
             "en": "Split: Put focus to nearest pane rightward",
+            "ru": "Разделить: переместить фокус на ближайшую панель справа",
             "id": 2613
         },
         "vkSplitFocusUp": {
             "en": "Split: Put focus to nearest pane upward",
+            "ru": "Разделить: переместить фокус на ближайшую панель вверх",
             "id": 2610
         },
         "vkSplitNewConH": {
             "en": "Split: Duplicate active ‘shell’ split to right",
+            "ru": "Разделить: Дублировать активную ‘оболочку’, разделенную справа",
             "id": 2605
         },
         "vkSplitNewConV": {
             "en": "Split: Duplicate active ‘shell’ split to bottom",
+            "ru": "Разделить: Дублировать активную ‘оболочку’, разделенную снизу",
             "id": 2604
         },
         "vkSplitSizeHleft": {
@@ -2223,14 +2276,17 @@
         },
         "vkTabPane": {
             "en": "Split: Put focus to next visible pane",
+            "ru": "Разделить: переместить фокус на следующую видимую панель",
             "id": 2511
         },
         "vkTabPaneShift": {
             "en": "Split: Put focus to previous visible pane",
+            "ru": "Разделить: переместить фокус на предыдущую видимую панель",
             "id": 2512
         },
         "vkTermButShell": {
             "en": "Terminate (kill) all but shell processes in the current console",
+            "ru": "Завершить (убить) все процессы, кроме оболочки, в текущей консоли",
             "id": 2761
         },
         "vkTerminateApp": {
@@ -2310,6 +2366,7 @@
         },
         "vkWndDragKey": {
             "en": "Move ConEmu window by dragging client area",
+            "ru": "Переместить окно ConEmu, перетаскивая область клиента",
             "id": 2404
         }
     },
@@ -3092,6 +3149,7 @@
         },
         "cbCloseConEmuOnCrossClicking": {
             "en": "Quit on close (e.g. caption bar cross clicking)",
+            "ru": "Выйти при закрытии (например. щелчком на заголовке)",
             "id": 2585
         },
         "cbCloseConEmuWithLastTab": {
@@ -3226,10 +3284,12 @@
         },
         "cbComspecUncPaths": {
             "en": "Support UNC paths in cmd.exe (\\\\server\\share\\folder)",
+            "ru": "Поддержка UNC-путей в cmd.exe (\\\\server\\share\\folder)",
             "id": 2451
         },
         "cbComspecUpdateEnv": {
             "en": "Set ComSpec environment variable for child processes to selected value",
+            "ru": "Установить переменную окружения ComSpec для дочерних процессов в выбранное значение",
             "id": 2160
         },
         "cbConfirmCloseRunning": {
@@ -3264,6 +3324,7 @@
         },
         "cbCTSClickPromptPosition": {
             "en": "Change prompt (cmd, powershell) text cursor position with Left Click",
+            "ru": "Изменить положение текстового курсора подсказки (cmd, powershell) с помощью левого клика",
             "id": 2344
         },
         "cbCTSDeleteLeftWord": {
@@ -3293,6 +3354,7 @@
         },
         "cbCTSEraseBeforeReset": {
             "en": "try to cut/erase selection before reset",
+            "ru": "попробуйте вырезать/стереть выделение перед сбросом",
             "id": 3030
         },
         "cbCTSFreezeBeforeSelect": {
@@ -3362,10 +3424,12 @@
         },
         "cbDefaultTerminal": {
             "en": "Force ConEmu as default terminal for console applications",
+            "ru": "Принудительно ConEmu как терминал по умолчанию для консольных приложений",
             "id": 2515
         },
         "cbDefaultTerminalDebugLog": {
             "en": "Enable logging of hooked processes (debug purposes)",
+            "ru": "Включить ведение журнала подключенных процессов (в целях отладки)",
             "id": 2866
         },
         "cbDefaultTerminalNoInjects": {
@@ -3385,6 +3449,7 @@
         },
         "cbDefaultTerminalUseExisting": {
             "en": "Use existing ConEmu window if available",
+            "ru": "Использовать существующее окно ConEmu, если доступно",
             "id": 2661
         },
         "cbDefTermAgressive": {
@@ -3735,6 +3800,7 @@
         },
         "cbMouseDragWindow": {
             "en": "Ctrl+Alt - drag window by client area",
+            "ru": "Ctrl+Alt - перетащить окно по клиентской области",
             "id": 3060
         },
         "cbMultiCon": {
@@ -3918,10 +3984,12 @@
         },
         "cbShowWasHiddenMsg": {
             "en": "Show ‘... was hidden’ warning in TSA",
+            "ru": "Показывать предупреждение ‘... было скрыто’ в TSA",
             "id": 2435
         },
         "cbShowWasSetOnTopMsg": {
             "en": "Show ‘... brought ConEmu OnTop. Revert?’ confirmation box",
+            "ru": "Показать ‘... brought ConEmu OnTop. Revert?’ окно подтверждения",
             "id": 2854
         },
         "cbSingleInstance": {
@@ -3936,6 +4004,7 @@
         },
         "cbSkipFocusEvents": {
             "en": "Skip focus events (don't send to console FOCUS_EVENT, useful with Far Manager)",
+            "ru": "Пропустить события фокуса (не отправлять в консоль FOCUS_EVENT, полезно с Far Manager)",
             "id": 1538
         },
         "cbSkipMove": {
@@ -4010,6 +4079,7 @@
         },
         "cbTaskbarOverlay": {
             "en": "Show overlay icon (Win7 and higher)",
+            "ru": "Показать значок наложения (Win7 и выше)",
             "id": 2491
         },
         "cbTaskbarProgress": {
@@ -4119,6 +4189,7 @@
         },
         "cbUseClink": {
             "en": "Use Clink in prompt",
+            "ru": "Использовать Clink в подсказке",
             "id": 2418
         },
         "cbUseCurrentSizePos": {
@@ -4312,6 +4383,7 @@
         },
         "gbFarDragDrop": {
             "en": "Shell style Drag and Drop (Far Manager only)",
+            "ru": "Перетаскивание в стиле оболочки (только Far Manager)",
             "id": 2957
         },
         "gbFarMacros": {
@@ -5562,18 +5634,22 @@
         },
         "stMoreConfont3": {
             "en": "Font must be Unicode and must be smaller than main font!!!",
+            "ru": "Шрифт должен быть Юникод и должен быть меньше основного шрифта!!!",
             "id": 3008
         },
         "stMoreConfont4": {
             "en": "For example: True Type font ‘Lucida Console’ 5x3",
+            "ru": "Например: True Type шрифт ‘Lucida Console’ 5x3",
             "id": 3009
         },
         "stMoreConfont5": {
             "en": "Font must be declared in: HKLM\\Software\\Microsoft\\",
+            "ru": "Шрифт должен быть объявлен в: HKLM\\Software\\Microsoft\\",
             "id": 3010
         },
         "stMoreConfont6": {
             "en": "\\Windows NT\\CurrentVersion\\Console\\TrueTypeFont",
+            "ru": "\\Windows NT\\CurrentVersion\\Console\\TrueTypeFont",
             "id": 3011
         },
         "stNewTabName": {
