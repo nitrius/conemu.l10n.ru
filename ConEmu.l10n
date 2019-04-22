@@ -197,6 +197,7 @@
         },
         "cbCTSDetectLineEnd": {
             "en": "Try to copy wrapped text as single line when possible (Text selection)",
+            "ru": "Попробовать скопировать завернутый текст одной строкой, если это возможно (выделение текста)",
             "id": 2358
         },
         "cbCTSEndCopyBefore": {
@@ -353,6 +354,7 @@
         },
         "cbDropUseBCopy": {
             "en": "Use BCopy service for drop operations (‘Unlocked drop’ must be checked)",
+            "ru": "Использовать сервис BCopy для операций удаления (необходимо разблокировать ‘Unlocked drop’)",
             "id": 1580
         },
         "cbEnableMouse": {
@@ -386,6 +388,7 @@
         },
         "cbFadeInactive": {
             "en": "When ConEmu loses focus, its contents may be faded. You may specify most bright color.",
+            "ru": "Когда ConEmu теряет фокус, его содержимое может исчезнуть. Вы можете указать наиболее яркий цвет.",
             "id": 1581
         },
         "cbFarHourglass": {
@@ -429,6 +432,7 @@
         },
         "cbHandleFarDetach": {
             "en": "Automatic attach to ConEmu new Far manager console, created on detach (CtrlAltTab)",
+            "ru": "Автоматическое подключение к новой консоли Far Manager ConEmu, созданной при отсоединении (CtrlAltTab)",
             "id": 1619
         },
         "cbHereName": {
@@ -445,6 +449,7 @@
         },
         "cbHideCaptionAlways": {
             "en": "Remove window border and caption. Only console, tabs and status bar will be shown.",
+            "ru": "Удалить границы окна и подпись. Будут показаны только консоль, вкладки и строка состояния.",
             "id": 1569
         },
         "cbHideInactiveConTabs": {
@@ -655,6 +660,7 @@
         },
         "cbShellNoZoneCheck": {
             "en": "SEE_MASK_NOZONECHECKS. Same as appeared in Far 2 build 771 and disappeared after 1464.",
+            "ru": "SEE_MASK_NOZONECHECKS. То же, что появилось в Far 2 билд 771 и исчезло после 1464.",
             "id": 1725
         },
         "cbShowFarWindows": {
@@ -810,6 +816,7 @@
         },
         "cbTryToCenter": {
             "en": "Draw console content in center of ConEmu window. Use together with ‘Pad size’",
+            "ru": "Нарисуйте содержимое консоли в центре окна ConEmu. Используйте вместе с ‘Pad size’",
             "id": 1570
         },
         "cbUnicodeRangesApply": {
@@ -935,10 +942,12 @@
         },
         "lbExtendFontBoldIdx": {
             "en": "Choose background color index for which ‘Bold’ font properties will be inverted (default is Red #12)",
+            "ru": "Выбрать фон, для которого будут инвертированы свойства шрифта ‘Жирный’ (по умолчанию Красный #12)",
             "id": 1577
         },
         "lbExtendFontItalicIdx": {
             "en": "Choose background color index for which ‘Italic’ font properties will be inverted (default is Magenta #13)",
+            "ru": "Выбрать фон, для которого будут инвертированы свойства шрифта ‘Курсив’ (по умолчанию - Магнента #13)",
             "id": 2300
         },
         "lbExtendFontNormalIdx": {
@@ -1070,6 +1079,7 @@
         },
         "rCursorB": {
             "en": "Full cell (block) cursor, change ‘Color’ checkbox for changing cursor appearance",
+            "ru": "Курсор на всю ячейку (блок), установите флажок ‘Цвет’ для изменения внешнего вида курсора.",
             "id": 2532
         },
         "rCursorH": {
@@ -1147,10 +1157,12 @@
         },
         "tCursorFixedSize": {
             "en": "Specified size of cursor in percents. Use together with ‘Fixed cursor size’",
+            "ru": "Указанный размер курсора в процентах. Используйте вместе с ‘Фиксированный размер курсор’",
             "id": 2368
         },
         "tCursorMinSize": {
             "en": "Specified minimal size of cursor in pixels (regardless of ‘Fixed cursor size’)",
+            "ru": "Указан минимальный размер курсора в пикселях (независимо от ‘Фиксированный размер курсор’)",
             "id": 2370
         },
         "tFadeHigh": {
@@ -1935,6 +1947,7 @@
         },
         "vkForceFullScreen": {
             "en": "Enter TEXT fullscreen mode, when available. If not - standard fullscreen and always on top",
+            "ru": "Войдите в полноэкранный режим ТЕКСТ, если он доступен. Если нет - стандартный полноэкранный режим и всегда поверх",
             "id": 2260
         },
         "vkGlobalRestore": {
@@ -2119,6 +2132,7 @@
         },
         "vkPasteFirstLine": {
             "en": "Paste first line of clipboard contents, autoconvert paths for cygwin's applications (ignored in Far)",
+            "ru": "Вставить первую строку содержимого буфера обмена, автоматическое преобразование путей для приложений Cygwin (игнорируется в Far)",
             "id": 2224
         },
         "vkPasteText": {
