@@ -231,6 +231,7 @@
         },
         "cbCTSIBeam": {
             "en": "Show IBeam (text selection) cursor when available and allowed by settings and key modifiers",
+            "ru": "Показать курсор IBeam (выделение текста), когда он доступен и разрешен настройками и модификаторами клавиш",
             "id": 2603
         },
         "cbCTSResetOnRelease": {
@@ -411,6 +412,7 @@
         },
         "cbFocusInChildWindows": {
             "en": "Set focus in xshell/putty/notepad/etc. when ConEmu is activated or tab switched.",
+            "ru": "Задайте фокус в xshell/putty/notepad/etc. когда ConEmu активирован или вкладка переключена.",
             "id": 2568
         },
         "cbFont2AA": {
@@ -550,6 +552,7 @@
         },
         "cbOneTabPerGroup": {
             "en": "Show only one tab for all splits in the group",
+            "ru": "Показывать только одну вкладку для всех разделений в группе",
             "id": 2599
         },
         "cbProcessAnsi": {
@@ -593,6 +596,7 @@
         },
         "cbRestore2ActiveMonitor": {
             "en": "When restoring or sliding-down move window to the active monitor, where mouse cursor is located",
+            "ru": "При восстановлении или скольжении перемещайте окно к активному монитору, где расположен курсор мыши",
             "id": 2867
         },
         "cbRestoreInactive": {
@@ -602,6 +606,7 @@
         },
         "cbRetardInactivePanes": {
             "en": "Retard inactive but visible split-panes in the active ConEmu window",
+            "ru": "Задержка неактивных, но видимых разделенных панелей в активном окне ConEmu",
             "id": 2665
         },
         "cbRSelectionFix": {
@@ -716,10 +721,12 @@
         },
         "cbStartFarRestoreEditors": {
             "en": "When ‘Auto save/restore opened tabs’ save/restore Far Manager editors/viewers too",
+            "ru": "Когда ‘Автосохранение/восстановление открытых вкладок’ также сохраняет/восстанавливает редакторы/средства просмотра Far Manager",
             "id": 2238
         },
         "cbStartFarRestoreFolders": {
             "en": "When ‘Auto save/restore opened tabs’ save/restore Far Manager panels folders too",
+            "ru": "Когда ‘Автосохранение/восстановление открытых вкладок’ также сохраняет/восстанавливает папки панелей Far Manager",
             "id": 2237
         },
         "cbSuppressBells": {
@@ -807,6 +814,7 @@
         },
         "cbUnicodeRangesApply": {
             "en": "Don't forger to apply manually entered UCS range to observe the result.",
+            "ru": "Не забудьте применить введенный вручную диапазон UCS, чтобы увидеть результат.",
             "id": 2838
         },
         "cbUseAltGrayPlus": {
@@ -992,6 +1000,7 @@
         },
         "rbComspec_AppBit": {
             "en": "64bit OS only, (System32 or SysWOW64) - same bits as application (ConEmu, Far Manager, ...)",
+            "ru": "Только на 64бит ОС, (System32 или SysWOW64) - те же биты, что и в приложении (ConEmu, Far Manager, ...)",
             "id": 2158
         },
         "rbComspec_OSbit": {
@@ -1026,6 +1035,7 @@
         },
         "rbScrollbarAuto": {
             "en": "Show scrollbar on mousehover or scroll position change",
+            "ru": "Показывать полосу прокрутки при наведении мыши или изменении положения прокрутки",
             "id": 2489
         },
         "rbScrollbarHide": {
@@ -1045,6 +1055,7 @@
         },
         "rbStartNamedTask": {
             "en": "Starts ConEmu with several (one or more) tabs, commands located in ConEmu Settings, Tasks page",
+            "ru": "Запускает ConEmu с несколькими (одной или несколькими) вкладками, команды, расположенные в настройках ConEmu, страница Задачи",
             "id": 2235
         },
         "rbStartSingleApp": {
@@ -1054,6 +1065,7 @@
         },
         "rbStartTasksFile": {
             "en": "Starts ConEmu with several (one or more) tabs, commands located in specified text file",
+            "ru": "Запускает ConEmu с несколькими (одной или несколькими) вкладками, командами, расположенными в указанном текстовом файле",
             "id": 2234
         },
         "rCursorB": {
@@ -1067,6 +1079,7 @@
         },
         "rCursorV": {
             "en": "Vertical text cursor, like standard graphic text editors",
+            "ru": "Вертикальный текстовый курсор, как в стандартных графических текстовых редакторах",
             "id": 2531
         },
         "slTransparent": {
@@ -1124,10 +1137,12 @@
         },
         "tCmdGroupKey": {
             "en": "Choose hotkey for creating this task (not global, it works in ConEmu only)",
+            "ru": "Выберать горячую клавишу для создания этой задачи (не глобальная, работает только в ConEmu)",
             "id": 2628
         },
         "tCmdGroupName": {
             "en": "Task name (alias), surrounded by {...}, used in ‘[+] menu’, ‘Recreate dialog’ or ‘-run’ argument of ConEmu.exe",
+            "ru": "Имя задачи (псевдоним), окруженное {...}, используемое в ‘[+] меню’, ‘Восстановить диалог’ или ‘-run’ аргумент ConEmu.exe",
             "id": 2117
         },
         "tCursorFixedSize": {
@@ -1191,6 +1206,7 @@
         },
         "tHereConfig": {
             "en": "Allows to set different font, palette and other settings for your ConEmu instance",
+            "ru": "Позволяет установить другой шрифт, палитру и другие настройки для вашего экземпляра ConEmu",
             "id": 2390
         },
         "tHereIcon": {
@@ -1224,6 +1240,7 @@
         },
         "tInsideConfig": {
             "en": "Allows to set different font, palette and other settings for your ConEmu instance",
+            "ru": "Позволяет установить другой шрифт, палитру и другие настройки для вашего экземпляра ConEmu",
             "id": 2385
         },
         "tInsideIcon": {
@@ -1320,10 +1337,12 @@
         },
         "tScrollAppearDelay": {
             "en": "Scrollbar appear delay when ‘Always show scrollbar’ is off or in 3rd-state",
+            "ru": "Полоса прокрутки отображается с задержкой, когда ‘Всегда показывать прокрутку’ выключена или находится в 3rd-state",
             "id": 2354
         },
         "tScrollDisappearDelay": {
             "en": "Scrollbar disappear delay when ‘Always show scrollbar’ is off or in 3rd-state",
+            "ru": "Задержка исчезновения полосы прокрутки, когда ‘Всегда показывать прокрутку’ выключена или находится в 3rd-state",
             "id": 2355
         },
         "tsTopPID": {
@@ -1591,6 +1610,7 @@
         },
         "vkCdExplorerPath": {
             "en": "Activate ConEmu and ‘CD’ to last (top in Z-order) Explorer window path",
+            "ru": "Активировать ConEmu и ‘CD’ (вверху Z-порядка) до последнего пути окна проводника",
             "id": 2853
         },
         "vkCheckUpdates": {
@@ -1860,6 +1880,7 @@
         },
         "vkDeleteLeftWord": {
             "en": "Delete word leftward to the cursor (ignored in Far)",
+            "ru": "Удалить слово слева от курсора (игнорируется в Far)",
             "id": 2522
         },
         "vkDumpProcess": {
@@ -1879,10 +1900,12 @@
         },
         "vkDuplicateRootAs": {
             "en": "Duplicate tab with current state of root process, run ‘As Administrator’",
+            "ru": "Дублировать вкладку с текущим состоянием процесса, запустить ‘как Администратор’",
             "id": 2504
         },
         "vkEscNoConsoles": {
             "en": "Minimize ConEmu by Esc when no open consoles left (see option ‘Don't close ConEmu on last console close’)",
+            "ru": "Сворачивать ConEmu с помощью Esc, когда нет открытых консолей (см. Параметр ‘Не закрывать ConEmu при закрытии последней консоли’)",
             "id": 2546
         },
         "vkFarGotoEditorVk": {
@@ -1926,6 +1949,7 @@
         },
         "vkHighlightMouseX": {
             "en": "Highlighting: Switch ‘Highlight row & col under mouse cursor’",
+            "ru": "Подсветка: Переключатель ‘Подсвечивать строки и столбцы под курсором мыши’",
             "id": 2725
         },
         "vkJumpActiveMonitor": {
@@ -2045,6 +2069,7 @@
         },
         "vkMultiNewPopup2": {
             "en": "Show create new console popup menu with task submenus",
+            "ru": "Показать создание нового всплывающего меню консоли с подменю задач",
             "id": 2624
         },
         "vkMultiNext": {
@@ -2128,6 +2153,7 @@
         },
         "vkResetTerminal": {
             "en": "Reset terminal: clear screen, backscroll, move cursor to the upper-left corner",
+            "ru": "Сбросить терминал: очистить экран, прокрутить назад, переместить курсор в верхний левый угол",
             "id": 3027
         },
         "vkScreenshot": {
@@ -2152,6 +2178,7 @@
         },
         "vkSetFocusSwitch": {
             "en": "Switch focus between ConEmu and child GUI application (e.g. PuTTY or Notepad)",
+            "ru": "Переключение фокуса между ConEmu и дочерним GUI приложением (например, PuTTY или Notepad)",
             "id": 2566
         },
         "vkShowCaption": {
@@ -3616,6 +3643,7 @@
         },
         "cbFixAltOnAltTab": {
             "en": "Fix Alt on AltTab/AltF9 (to avoid execution of Far Manager macro, linked to Alt-release)",
+            "ru": "Исправить Alt на AltTab/AltF9 (чтобы избежать выполнения макроса Far Manager, связанного с Alt-отпускание)",
             "id": 1562
         },
         "cbFixFarBorders": {
@@ -4279,6 +4307,7 @@
         },
         "gbCmdAutoAttach": {
             "en": "Automatic attach of cmd && Tcc/Le to ConEmu (new window will be started if not found)",
+            "ru": "Автоматическое присоединение cmd && Tcc/Le к ConEmu (новое окно будет запущено, если не найдено)",
             "id": 2955
         },
         "gbCmdTasks": {
