@@ -1656,7 +1656,7 @@
         },
         "vkClose2Right": {
             "en": "Close to the right",
-            "en": "Закрыть вправо",
+            "ru": "Закрыть вправо",
             "id": 3091
         },
         "vkCloseAllCon": {
@@ -2011,7 +2011,7 @@
         },
         "vkMaximizeHeight": {
             "en": "Snap ConEmu window to the monitor's top/bottom edges (maximize height)",
-            "en": "Привязать окно ConEmu к верхнему/нижнему краям монитора (увеличить высоту)",
+            "ru": "Привязать окно ConEmu к верхнему/нижнему краям монитора (увеличить высоту)",
             "id": 2637
         },
         "vkMaximizePane": {
@@ -3554,6 +3554,7 @@
         },
         "cbDragL": {
             "en": "LDrag",
+            "ru": "LDrag",
             "id": 1504
         },
         "cbDragPanel": {
@@ -3568,6 +3569,7 @@
         },
         "cbDragR": {
             "en": "RDrag",
+            "ru": "RDrag",
             "id": 1505
         },
         "cbDropEnabled": {
@@ -3652,6 +3654,7 @@
         },
         "cbFindMatchCase": {
             "en": "Match &case",
+            "ru": "Учитывать регистр",
             "id": 2175
         },
         "cbFindNext": {
@@ -4151,7 +4154,7 @@
         },
         "cbThumbCacheFolder": {
             "en": "Choose...",
-            "en": "Выберите...",
+            "ru": "Выберите...",
             "id": 1691
         },
         "cbThumbLoadFiles": {
