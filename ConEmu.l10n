@@ -188,6 +188,7 @@
         },
         "cbCTSClickPromptPosition": {
             "en": "3rd-state means ‘try to detect if console is in ReadConsole’, if you want to use this with bash - turn checkbox to ‘On’ (don't use third state)",
+            "ru": "3rd-state означает ‘попытаться определить, находится ли консоль в ReadConsole’, если вы хотите использовать это с bash - установите флажок ‘Вкл’ (не используйте 3rd-state)",
             "id": 2344
         },
         "cbCTSDeleteLeftWord": {
@@ -353,6 +354,7 @@
         },
         "cbDropUnlocked": {
             "en": "Unlock source and target window on Drop operation. This may cause unpredictable results, when DragSource creates temp dragged files ONLY for drag lifetime.",
+            "ru": "Разблокируйте источник и целевое окно при Drop. Это может привести к непредсказуемым результатам, когда DragSource создает временные перетаскиваемые файлы ТОЛЬКО на время жизни перетаскивания.",
             "id": 1579
         },
         "cbDropUseBCopy": {
@@ -465,6 +467,7 @@
         },
         "cbInjectConEmuHkFast": {
             "en": "Required for many features (ANSI X3.64, -new_console argument, GUI apps in ConEmu tabs, ...) and elimination of several problems (crash in Windows 8, telnet in Windows 7, dialogs and menus behind of ConEmu window, chcp hungs, and so on...)",
+            "ru": "Требуется для многих функций (ANSI X3.64, -new_console аргумент, GUI приложения во вкладках ConEmu, ...) и устранения ряда проблем (сбой в Windows 8, telnet в Windows 7, диалоги и меню за окном ConEmu, chcp hungs и так далее...)",
             "id": 2098
         },
         "cbInsideName": {
@@ -568,6 +571,7 @@
         },
         "cbProcessAnsi": {
             "en": "Enable processing of ANSI escape sequences, ‘Inject ConEmuHk’ must be checked if you want to work with second level processes (e.g. cmd.exe -> app.exe)",
+            "ru": "Включить обработку последовательностей ANSI, ‘Inject ConEmuHk’ должна быть включена, если вы хотите работать с процессами второго уровня (например. cmd.exe -> app.exe)",
             "id": 2253
         },
         "cbProcessCmdStart": {
@@ -856,6 +860,7 @@
         },
         "cbUseKeyboardHooksFast": {
             "en": "Required for some keyboard combinations. When checked, ConEmu will install keyboard hook when ConEmu is foreground window. So, You must allow that in antiviral software (AVP for example)",
+            "ru": "Требуется для некоторых сочетаний клавиш. Когда отмеченно, ConEmu установит хук клавиатуры, когда ConEmu находится на переднем окне. Так что, вы должны разрешить это в антивирусном ПО (например, AVP)",
             "id": 2086
         },
         "cbUserScreenTransparent": {
@@ -1261,6 +1266,7 @@
         },
         "tHideCaptionAlwaysFrame": {
             "en": "While caption and frame are hidden, ConEmu may keep small part of frame (in pixels) around console part. Default is 1 pixel.",
+            "ru": "Пока заголовок и рамка скрыты, ConEmu может держать небольшую часть кадра (в пикселях) вокруг части консоли. По умолчанию 1 пиксель.",
             "id": 1589
         },
         "tInsideConfig": {
@@ -5486,6 +5492,7 @@
         },
         "stDisableConImeFast1": {
             "en": "Unwanted value of ‘LoadConIme’ registry parameter! This may cause hanging of other console applications! ConEmu may disable ConIme.exe via registry:",
+            "ru": "Нежелательное значение параметра реестра ‘LoadConIme’! Это может привести к зависанию других консольных приложений! ConEmu может отключить ConIme.exe через реестр:",
             "id": 2094
         },
         "stElevatedConsolesGroup": {
