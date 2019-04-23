@@ -57,6 +57,7 @@
         },
         "cbAlwaysOnTop": {
             "en": "Places the ConEmu window above all non-topmost windows. The window maintains its topmost position even when it is deactivated",
+            "ru": "Размещает окно ConEmu над всеми окнами, не являющимися topmost. Окно сохраняет свое положение topmost, даже если оно деактивировано",
             "id": 1572
         },
         "cbAlwaysShowTrayIcon": {
@@ -177,6 +178,7 @@
         },
         "cbCTSBashMargin": {
             "en": "Bash leave one space-character on the right edge of console when wrapping lines, skip these spaces when copying to clipboard",
+            "ru": "Bash оставляет один пробел на правом краю консоли при переносе строк, пропустить эти пробелы при копировании в буфер обмена",
             "id": 2359
         },
         "cbCTSBlockSelection": {
@@ -284,6 +286,7 @@
         },
         "cbDefTermAgressive": {
             "en": "If enabled, running ConEmu instance will not be required for hooking new processes. One already hooked process, e.g. ‘Explorer.exe’, will be enough.",
+            "ru": "Если включено, запуск экземпляра ConEmu не потребуется для перехвата новых процессов. Одиного перехваченного процесса, например ‘Explorer.exe’ будет достаточно.",
             "id": 2684
         },
         "cbDisableAllFlashing": {
@@ -359,6 +362,7 @@
         },
         "cbEnableMouse": {
             "en": "Uncheck this to stop sending mouse events to console, mouse will be processed by ConEmu internally (text selection, for example)",
+            "ru": "Снимите этот флажок, чтобы прекратить отправку событий мыши на консоль, ConEmu будет обрабатывать мышь внутри себя (например, выделение текста)",
             "id": 2313
         },
         "cbEnhanceGraphics": {
@@ -393,6 +397,7 @@
         },
         "cbFarHourglass": {
             "en": "Show AppStarting mouse cursor (arrow with a small hourglass or circle) when Far is busy (not responding during long operations)",
+            "ru": "Показать AppStarting курсор мыши (стрелка с маленькими песочными часами или кружком), когда Far занят (не отвечает во время длительных операций)",
             "id": 1563
         },
         "cbFARuseASCIIsort": {
@@ -404,6 +409,7 @@
         },
         "cbFixAltOnAltTab": {
             "en": "When You set a macro on Alt (RAlt) it can unexpectedly activates on AltTab or AltF9. This issue can be fixed by sending to console Control depress before Alt release.",
+            "ru": "Когда вы устанавливаете макрос на Alt (RAlt), он может неожиданно активироваться на AltTab или AltF9. Эту проблему можно исправить, отправив в консоль нажатие Ctrl перед отпусканием Alt.",
             "id": 1562
         },
         "cbFixFarBorders": {
@@ -566,6 +572,7 @@
         },
         "cbProcessCmdStart": {
             "en": "Hook 'start' command in your cmd's prompt and batches started in ConEmu tabs to run console applications in new ConEmu tabs",
+            "ru": "Перхватывать команду 'start' в командной строке и запустите пакетно на вкладках ConEmu для запуска консольных приложений на новых вкладках ConEmu",
             "id": 2740
         },
         "cbProcessCtrlZ": {
@@ -577,6 +584,7 @@
         },
         "cbProcessNewConArg": {
             "en": "Enable processing of '-new_console' and '-cur_console' switches in your shell prompt, scripts etc. started in ConEmu tabs",
+            "ru": "Включить обработку ключей -new_console и -cur_console в командной строке, сценариях и т.д., запущенных на вкладках ConEmu",
             "id": 2640
         },
         "cbQuakeStyle": {
@@ -852,6 +860,7 @@
         },
         "cbUserScreenTransparent": {
             "en": "Turn on ‘User screen’ transparency, when panel(s) is lifted up or hided. You may temporary reveal ‘User screen’ by depressing Ctrl-Alt-Shift.",
+            "ru": "Включите прозрачность ‘Экран пользователя’, когда панель(и) поднята или скрыта. Вы можете временно открыть ‘Экран пользователя’, нажав Ctrl-Alt-Shift.",
             "id": 1573
         },
         "cbUseWinArrows": {
@@ -952,6 +961,7 @@
         },
         "lbExtendFontNormalIdx": {
             "en": "When Bold or Italic font property was inverted, ConEmu may change background to default color (default is Blue #1)",
+            "ru": "Когда свойство жирного или курсивого шрифта было инвертировано, ConEmu может изменить фон на цвет по умолчанию (по умолчанию Синий #1)",
             "id": 2301
         },
         "lbGotoEditorCmd": {
@@ -1106,6 +1116,7 @@
         },
         "tBgImage": {
             "en": "Choose background image file (bmp, jpg, png, tif) or specify solid color in any form supported by ‘Colors’ page",
+            "ru": "Выберите файл фонового изображения (bmp, jpg, png, tif) или укажите сплошной цвет в любой форме, поддерживаемой страницей ‘Цвета’",
             "id": 1697
         },
         "tBgImageColors": {
@@ -1167,10 +1178,12 @@
         },
         "tFadeHigh": {
             "en": "When ConEmu loses focus, its contents may be faded. You may specify here \"high shift\" (which makes light colors darker).",
+            "ru": "Когда ConEmu теряет фокус, его содержимое может исчезнуть. Вы можете указать здесь \"высокий сдвиг\" (делает светлые цвета темнее).",
             "id": 1625
         },
         "tFadeLow": {
             "en": "When ConEmu loses focus, its contents may be faded. You may specify here \"low shift\" (which makes dark colors lighter).",
+            "ru": "Когда ConEmu теряет фокус, его содержимое может исчезнуть. Вы можете указать здесь \"низкий сдвиг\" (делает светлые цвета темнее).",
             "id": 1624
         },
         "tFontCharset": {
@@ -3897,6 +3910,7 @@
         },
         "cbProcessCmdStart": {
             "en": "Process 'start'",
+            "ru": "Процесс 'start'",
             "id": 2740
         },
         "cbProcessCtrlZ": {
