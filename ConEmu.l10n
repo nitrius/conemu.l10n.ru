@@ -406,6 +406,10 @@
             "en": [
                 "Hook Far string sort functions.\r\n",
                 "!!!HIGHLY EXPERIMENTAL!!!"
+            ],        
+            "ru": [
+                "Перехват функций сортировки строк Far.\r\n",
+                "!!!ОЧЕНЬ ЭКСПЕРИМЕНТАЛЬНО!!!"
             ],
             "id": 1561
         },
@@ -544,6 +548,12 @@
                 "(several consoles in one ConEmu)\r\n",
                 "ConEmu restart required"
             ],
+            "ru": [
+                "Включить MultiConsole\r\n",
+                "(несколько консолей в одном ConEmu)\r\n",
+                "Требуется перезапуск ConEmu"
+            ],
+            
             "id": 1506
         },
         "cbMultiIterate": {
@@ -710,6 +720,10 @@
             "en": [
                 "Skip mouse button (left/right/middle)\r\n",
                 "click, while activating window"
+            ],        
+            "ru": [
+                "Пропустить нажатие кнопки мыши (влево/вправо/в центр)\r\n",
+                "при активизации окна"
             ],
             "id": 1542
         },
@@ -724,6 +738,10 @@
             "en": [
                 "Skip mouse move events, while\r\n",
                 "ConEmu is not foreground window"
+            ],   
+            "ru": [
+                "Пропустить события перемещения мыши, пока\r\n",
+                "ConEmu не находится на переднем плане"
             ],
             "id": 1543
         },
@@ -758,6 +776,10 @@
             "en": [
                 "When checked - real window switching\r\n",
                 "will be performed on Ctrl depress"
+            ],        
+            "ru": [
+                "Если установлен этот флажок, переключение реального\r\n",
+                "окна будет выполняться при нажатии Ctrl."
             ],
             "id": 1532
         },
@@ -796,6 +818,10 @@
             "en": [
                 "Represent each console on taskbar\r\n",
                 "3rd-state - Windows 7 and higher"
+            ],      
+            "ru": [
+                "Представлять каждую консоль на панели задач\r\n",
+                "3rd-state - Windows 7 и выше"
             ],
             "id": 2048
         },
@@ -848,6 +874,10 @@
             "en": [
                 "Use clink to extend command prompt (cmd.exe)\r\n",
                 "https://mridgers.github.io/clink/"
+            ],      
+            "ru": [
+                "Используйте clink для расширения командной строки (cmd.exe)\r\n",
+                "https://mridgers.github.io/clink/"
             ],
             "id": 2418
         },
@@ -892,6 +922,10 @@
             "en": [
                 "Change lightness of text if color difference\r\n",
                 "between text and background is indistinguishable"
+            ],     
+            "ru": [
+                "Измените яркость текста, если разница в цвете\r\n",
+                "между текстом и фоном не различима"
             ],
             "id": 3056
         },
@@ -1000,6 +1034,10 @@
             "en": [
                 "Disable debug logging.\r\n",
                 "This implies on ‘Settings’ dialog close."
+            ],        
+            "ru": [
+                "Отключить ведение журнала отладки.\r\n",
+                "Это подразумевает закрытие диалога ‘Настройки’."
             ],
             "id": 1747
         },
@@ -1012,6 +1050,10 @@
             "en": [
                 "Log in console progress creations.\r\n",
                 "‘Inject ConEmuHk’ is required"
+            ],    
+            "ru": [
+                "Войти в консоль.\r\n",
+                "Требуется ‘Inject ConEmuHk’"
             ],
             "id": 3057
         },
@@ -1213,6 +1255,11 @@
                 "Main font width\r\n",
                 "0 - mean default width\r\n",
                 "for specified height"
+            ],        
+            "ru": [
+                "Ширина основного шрифта\r\n",
+                "0 - средняя ширина по умолчанию\r\n",
+                "для указанной высоты"
             ],
             "id": 2279
         },
@@ -1342,6 +1389,10 @@
             "en": [
                 "Real sizes of \"Change pseudographics font\":\r\n",
                 "Height x Width"
+            ],   
+            "ru": [
+                "Реальные размеры \"Изменить шрифт псевдографики\":\r\n",
+                "Высота x Ширина"
             ],
             "id": 1518
         },
@@ -1349,6 +1400,10 @@
             "en": [
                 "Real sizes of main font:\r\n",
                 "Height x Width x AveWidth"
+            ],         
+            "ru": [
+                "Реальные размеры основного шрифта:\r\n",
+                "Высота x Ширина x Средняя ширина"
             ],
             "id": 1517
         },
@@ -1519,6 +1574,10 @@
             "en": [
                 "Size in pixels of preview square in Tiles mode\r\n",
                 "Default is 48"
+            ],       
+            "ru": [
+                "Размер в пикселях квадрата предварительного просмотра в Tiles mode\r\n",
+                "По умолчанию 48"
             ],
             "id": 1681
         },
@@ -1556,6 +1615,10 @@
             "en": [
                 "Define your own UCS range or\n",
                 "choose predefined one from the list."
+            ],    
+            "ru": [
+                "Определите свой собственный диапазон UCS или\n",
+                "выберите предварительно определенный из списка."
             ],
             "id": 2835
         },
@@ -1589,6 +1652,10 @@
             "en": [
                 "Upper left corner of ConEmu in Normal mode\r\n",
                 "This is in pixels"
+            ],     
+            "ru": [
+                "Верхний левый угол ConEmu в обычном режиме\r\n",
+                "Это в пикселях"
             ],
             "id": 2295
         },
@@ -1596,6 +1663,10 @@
             "en": [
                 "Upper left corner of ConEmu in Normal mode\r\n",
                 "This is in pixels"
+            ],     
+            "ru": [
+                "Верхний левый угол ConEmu в обычном режиме\r\n",
+                "Это в пикселях"
             ],
             "id": 2296
         },
