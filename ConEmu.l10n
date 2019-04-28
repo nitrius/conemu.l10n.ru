@@ -796,6 +796,10 @@
             "en": [
                 "Show tabs (all opened panels, editors and viewers)\r\n",
                 "on the top of ConEmu window"
+            ],        
+            "ru": [
+                "Показать вкладки (все открытые панели, редакторы и средства просмотра)\r\n",
+                "в верхней части окна ConEmu"
             ],
             "id": 2288
         },
@@ -1158,6 +1162,10 @@
             "en": [
                 "You may choose folder for in-console log files\r\n",
                 "(affect new consoles only)"
+            ],       
+            "ru": [
+                "Вы можете выбрать папку для файлов журнала в консоли\r\n",
+                "(влияет только на новые консоли)"
             ],
             "id": 2680
         },
@@ -1346,6 +1354,10 @@
             "en": [
                 "Length of backscroll buffer in lines.\r\n",
                 "Maximum supported value is 32766."
+            ],          
+            "ru": [
+                "Длина буфера обратной прокрутки в строках.\r\n",
+                "Максимальное поддерживаемое значение - 32766."
             ],
             "id": 1535
         },
@@ -1527,6 +1539,10 @@
             "en": [
                 "Size in pixels of preview square in Thumbnails mode\r\n",
                 "Default is 96"
+            ],       
+            "ru": [
+                "Размер в пикселях квадрата предварительного просмотра в режиме эскизов\r\n",
+                "По умолчанию установлено значение 96"
             ],
             "id": 1682
         },
