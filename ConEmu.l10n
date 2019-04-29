@@ -216,6 +216,10 @@
             "en": [
                 "When ‘Off’ - only characters ends selection\r\n",
                 "When ‘On’ - any key ends selection (Arrows, PgUp, End, etc.)"
+            ],         
+            "ru": [
+                "Когда ‘Off’ - только символы заканчивают выделение\r\n",
+                "Когда ‘On’ - любая клавиша заканчивает выбор (стрелки, PgUp, End и т.д.)"
             ],
             "id": 2436
         },
@@ -401,6 +405,11 @@
                 "Export your current settings to xml file\r\n",
                 "\r\n",
                 "Beware overwriting your current ConEmu.xml if you are using ConEmu portable mode!"
+            ],       
+            "ru": [
+                "Экспорт текущих настроек в файл XML\r\n",
+                "\r\n",
+                "Остерегайтесь перезаписи вашего текущего файла ConEmu.xml, если вы используете портативный режим ConEmu!"
             ],
             "id": 2572
         },
@@ -408,6 +417,10 @@
             "en": [
                 "ConEmu is able to use normal, bold and italic fonts side by side.\r\n",
                 "This feature may be useful for prompt decoration or with Colorer plugin for Far Manager (1.7x, 2.x)."
+            ],     
+            "ru": [
+                "ConEmu может использовать обычные, жирные и курсивные шрифты рядом.\r\n",
+                "Эта функция может быть полезна для быстрого оформления или с плагином Colorer для Far Manager (1.7x, 2.x)."
             ],
             "id": 1576
         },
@@ -633,6 +646,10 @@
             "en": [
                 "Treat Ctrl-Z as ‘EndOfStream’. On new line press Ctrl-Z and Enter.\r\n",
                 "Refer to the gh#465 for details (Go input streams)."
+            ],    
+            "ru": [
+                "Считайте Ctrl-Z как ‘EndOfStream’. В новой строке нажмите Ctrl-Z и Enter.\r\n",
+                "Обратитесь к gh#465 для деталей (Go входные потоки)."
             ],
             "id": 2878
         },
@@ -711,6 +728,10 @@
             "en": [
                 "When checked, You can use \"Alt+Tab\" in Far internally.\r\n",
                 "Warning! This blocks ability of switching to another window"
+            ],         
+            "ru": [
+                "Когда установлен этот флажок, вы можете использовать \"Alt+Tab\" в Far.\r\n",
+                "Предупреждение! Это блокирует возможность переключения в другое окно"
             ],
             "id": 1777
         },
@@ -994,6 +1015,11 @@
                 "You may choose one of predefined color schemes.\r\n",
                 "Each scheme customize 32 colors (16+16)\r\n",
                 "and extend foreground options."
+            ],       
+            "ru": [
+                "Вы можете выбрать одну из предопределенных цветовых схем.\r\n",
+                "Каждая схема настраивает 32 цвета (16+16)\r\n",
+                "и расширяет возможности переднего плана."
             ],
             "id": 2147
         },
@@ -1045,6 +1071,11 @@
                 "You may choose one of predefined color schemes.\r\n",
                 "Each scheme customize 32 colors (16+16)\r\n",
                 "and extend foreground options."
+            ],        
+            "ru": [
+                "Вы можете выбрать одну из предопределенных цветовых схем.\r\n",
+                "Каждая схема настраивает 32 цвета (16+16)\r\n",
+                "и расширяет возможности переднего плана."
             ],
             "id": 1554
         },
@@ -1077,6 +1108,10 @@
             "en": [
                 "Old DOS programs may be run under console sizes: 80x25, 80x28, 80x43 or 80x50. You may force window size selection, or left the automatic selection.\r\n",
                 "This feature is not available in x64 OS."
+            ],            
+            "ru": [
+                "Старые DOS-программы можно запускать с размерами консоли: 80x25, 80x28, 80x43 или 80x50. Вы можете принудительно выбрать размер окна или оставить автоматический выбор.\r\n",
+                "Эта функция недоступна в ОС x64."
             ],
             "id": 1559
         },
@@ -1247,6 +1282,10 @@
             "en": [
                 "Macro for close Editor/Viewer/Panels in Far Manager, when you choose ‘Close’ from tab context menu\r\n",
                 "Clear field to reset to defaults"
+            ],   
+            "ru": [
+                "Макрос для закрытия редактора/средства просмотра/панелей в Far Manager, когда вы выбираете ‘Закрыть’ в контекстном меню вкладки\r\n",
+                "Очистить поле для сброса на значения по умолчанию"
             ],
             "id": 2078
         },
@@ -1315,6 +1354,10 @@
             "en": [
                 "Font face used to draw pseudographics or specified range of symbols.\r\n",
                 "E.g. main - \"Consolas\", additional - \"Segoe UI\"."
+            ],     
+            "ru": [
+                "Шрифт, используемый для псевдографики или указанного диапазона символов.\r\n",
+                "Например: основной - \"Consolas\", дополнительный - \"Segoe UI\"."
             ],
             "id": 1514
         },
@@ -1336,6 +1379,11 @@
                 "WIDTH for pseudographics font.\r\n",
                 "It must be wider than main font\r\n",
                 "to avoid \"dashed\" pseudographics (frames)."
+            ],        
+            "ru": [
+                "ШИРИНА для псевдографического шрифта.\r\n",
+                "Он должен быть шире основного шрифта,\r\n",
+                "чтобы избежать \"пунктирной\" псевдографии (фреймов)."
             ],
             "id": 2284
         },
@@ -1425,6 +1473,10 @@
             "en": [
                 "This allows to search all setup pages controls for specified text\r\n",
                 "Click ‘zoom’ icon or press ‘Enter’ to continue search"
+            ],          
+            "ru": [
+                "Это позволяет осуществлять поиск по всем элементам управления страницами настройки по указанному тексту\r\n",
+                "Нажмите ‘увеличить’ или ‘Enter’, чтобы продолжить поиск"
             ],
             "id": 2569
         },
@@ -1447,6 +1499,10 @@
             "en": [
                 "Duration of window animation (0..2000ms): Quake slide down/up and restoring/hiding window to TSA.\r\n",
                 "Animation is working only when window caption is hidden."
+            ],      
+            "ru": [
+                "Продолжительность анимации окна (0..2000мс): Quake скользит вниз/вверх и восстанавливает/скрывает окно в TSA.\r\n",
+                "Анимация работает только тогда, когда заголовок окна скрыт."
             ],
             "id": 2564
         },
@@ -1487,6 +1543,10 @@
             "en": [
                 "Macro for close Far Manager softly, instead of closing console window, when you close ConEmu window\r\n",
                 "Clear field to reset to defaults"
+            ],    
+            "ru": [
+                "Макрос для закрытия Far Manager мягко, вместо закрытия окна консоли, когда вы закрываете окно ConEmu\r\n",
+                "Очистить поле, чтобы восстановить настройки по умолчанию"
             ],
             "id": 2080
         },
@@ -5501,6 +5561,13 @@
                 "Each command creates tab in ConEmu when group started\n",
                 "Mark active console tab with '>' sign\n",
                 "Start console 'As Administrator' with '*' sign"
+            ],           
+            "ru": [
+                "Команды (приложение, аргументы, параметры \"-new_console\")\n",
+                "Разделяйте команды пустыми строками\n",
+                "Каждая команда создает вкладку в ConEmu при запуске группы\n",
+                "Пометьте активную вкладку консоли знаком '>'\n",
+                "Запустите консоль от имени администратора со знаком '*'"
             ],
             "id": 2121
         },
@@ -5638,6 +5705,10 @@
             "en": [
                 "List of hooked executables or window class names delimited with ‘|’\r\n",
                 "Example: explorer.exe|devenv.exe|wdexpress.exe|totalcmd.exe|TaskManagerWindow"
+            ],          
+            "ru": [
+                "Список подключенных исполняемых файлов или имен классов окон, разделенных ‘|’\r\n",
+                "Например: explorer.exe|devenv.exe|wdexpress.exe|totalcmd.exe|TaskManagerWindow"
             ],
             "id": 2663
         },
@@ -5645,6 +5716,10 @@
             "en": [
                 "If you want to start some command in the Windows standard console window from hooked executable when 'Default terminal' is enabled, just use \"-new_console:z\" switch.\r\n",
                 "Example: \"cmd.exe -new_console:z\""
+            ],        
+            "ru": [
+                "Если вы хотите запустить какую-либо команду в стандартном консольном окне Windows из подключенного исполняемого файла, когда включен 'Терминал по умолчанию', просто используйте ключ \"-new_console:z\"\r\n",
+                "Например: \"cmd.exe -new_console:z\""
             ],
             "id": 2662
         },
@@ -5703,6 +5778,11 @@
                 "%s - Title, %c - Console #, %n - Active process name, %p - PID, %a - ‘Admin’, %% - %,\n",
                 "%m...m, %M...M - mark ‘...’ for active (m) and inactive (M) tab\n",
                 "%i - Far window number (you can see it in standard F12 menu)"
+            ],           
+            "ru": [
+                "%s - Заголовок, %c - Консоль #, %n - Имя активного процесса, %p - PID,%a - ‘Admin’, %% - %,\n",
+                "%m...m, %M...M - отметка ‘...’ для активной  (m) и неактивной (M) вкладки\n",
+                "%i - номер Far окна (вы можете увидеть его в стандартном меню F12)"
             ],
             "id": 2960
         },
@@ -5953,6 +6033,10 @@
             "en": [
                 "Here you may set up your environment variables, default code page, and so on...\r\n",
                 "One line may have only one command! You may comment lines with # sign."
+            ],        
+            "ru": [
+                "Здесь вы можете настроить переменные окружения, кодовую страницу по умолчанию и т.д...\r\n",
+                "Одна строка может иметь только одну команду! Вы можете комментировать строки знаком #"
             ],
             "id": 2852
         },
@@ -6091,6 +6175,11 @@
                 "%s - Title, %c - Console #, %n - Active process name, %p - PID,\n",
                 "%m...m, %M...M - mark ‘...’ for active (m) and inactive (M) tab\n",
                 "%a - ‘Admin’, %d - current shell directory, %f - folder, %% - %"
+            ],    
+            "ru": [
+                "%s - Заголовок, %c - Консоль #, %n - Имя активного процесса, %p - PID,\n",
+                "%m...m, %M...M - отметка ‘...’ для активной  (m) и неактивной (M) вкладки\n",
+                "%a - ‘Admin’, %d - текущий каталог оболочки, %f - папка, %% - %"
             ],
             "id": 2737
         },
