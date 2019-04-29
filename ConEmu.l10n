@@ -98,6 +98,10 @@
             "en": [
                 "Enable background Far plugins (e.g. Panel Colorer),\r\n",
                 "3rd-state - don't draw in viewer/editor"
+            ],       
+            "ru": [
+                "Включить фоновые плагины Far (например, Panel Colorer),\r\n",
+                "3rd-state - не рисовать в средстве просмотра/редакторе"
             ],
             "id": 1734
         },
@@ -262,6 +266,10 @@
             "en": [
                 "When \"Blinking\" is ON - cursor blinks\r\n",
                 "with standard cursor blink rate."
+            ],       
+            "ru": [
+                "Когда \"Мигание\" включено - курсор мигает\r\n",
+                "со стандартной частотой мигания курсора."
             ],
             "id": 1522
         },
@@ -282,6 +290,10 @@
             "en": [
                 "Show some debug information in ConEmu title\r\n",
                 "E.g. plugin communication steps."
+            ],         
+            "ru": [
+                "Показать некоторую отладочную информацию в заголовке ConEmu\r\n",
+                "Например. Шаги плагина связи."
             ],
             "id": 1551
         },
@@ -294,6 +306,10 @@
             "en": [
                 "Disable all flashing (from consoles) on Windows taskbar.\r\n",
                 "3rd-state - allow short flashing."
+            ],       
+            "ru": [
+                "Отключить все мигания (из консолей) на панели задач Windows.\r\n",
+                "3rd-state - разрешить короткое мигание."
             ],
             "id": 1719
         },
@@ -301,6 +317,10 @@
             "en": [
                 "Disable flashing (from Far Manager) on Windows taskbar.\r\n",
                 "3rd-state - allow short flashing."
+            ],     
+            "ru": [
+                "Отключить мигание (из Far Manager) на панели задач Windows.\r\n",
+                "3rd-state - разрешить короткое мигание."
             ],
             "id": 1718
         },
@@ -336,6 +356,10 @@
             "en": [
                 "Enable sizing of left and right panel by dragging with mouse.\r\n",
                 "3rd-state - resize on button release with macroses."
+            ],      
+            "ru": [
+                "Включить размер левой и правой панели, перетаскивая мышью.\r\n",
+                "3rd-state - изменение размера при отпускании кнопки с макросами."
             ],
             "id": 1568
         },
@@ -434,6 +458,10 @@
             "en": [
                 "Enable or disable ‘Clear Type’ for alternative font.\n",
                 "Accurate pseudographics looks better."
+            ],       
+            "ru": [
+                "Включить или отключить ‘Clear Type’ для альтернативного шрифта.\n",
+                "Точная псевдография выглядит лучше."
             ],
             "id": 2883
         },
@@ -451,6 +479,10 @@
             "en": [
                 "What you will see in the Explorer popup menu\r\n",
                 "You can use `&` sign to set hotkey for the menu item"
+            ],           
+            "ru": [
+                "Что вы увидите во всплывающем меню Проводника\r\n",
+                "Вы можете использовать знак `&`, чтобы установить горячую клавишу для пункта меню"
             ],
             "id": 2407
         },
@@ -478,6 +510,10 @@
             "en": [
                 "What you will see in the Explorer popup menu\r\n",
                 "You can use `&` sign to set hotkey for the menu item"
+            ],         
+            "ru": [
+                "Что вы увидите во всплывающем меню Проводника\r\n",
+                "Вы можете использовать знак `&`, чтобы установить горячую клавишу для пункта меню"
             ],
             "id": 2406
         },
@@ -529,6 +565,10 @@
             "en": [
                 "Monitor input language change in real\r\n",
                 "console (e.g. Far Manager XLat switching support)"
+            ],         
+            "ru": [
+                "Мониторинг изменения языка ввода в реальной консоли\r\n",
+                "(например, поддержка переключения Far Manager XLat)"
             ],
             "id": 1537
         },
@@ -640,6 +680,10 @@
             "en": [
                 "Fix dashed selection with fast right mouse drag\r\n",
                 "Far 3: restore files selection instead of EMenu"
+            ],     
+            "ru": [
+                "Исправить пунктирный выбор с помощью быстрого перетаскивания правой кнопкой мыши\r\n",
+                "Far 3: восстановить выбор файлов вместо EMenu"
             ],
             "id": 1536
         },
@@ -731,6 +775,10 @@
             "en": [
                 "Don't send focus events to console to disable\r\n",
                 "autoclosing of fast search dialog in panels"
+            ],       
+            "ru": [
+                "Не отправлять события фокуса на консоль, чтобы отключить\r\n",
+                "автоматическое закрытие диалога быстрого поиска на панелях"
             ],
             "id": 1538
         },
@@ -769,6 +817,10 @@
             "en": [
                 "Suppress annoying bells produced by echoing char(7), Beep and MessageBeep functions.\r\n",
                 "Inject ConEmuHk is required."
+            ],         
+            "ru": [
+                "Подавить надоедливые звуки, вызванные повторением функций char(7), Beep и MessageBeep.\r\n",
+                "Требуется Inject ConEmuHk."
             ],
             "id": 2598
         },
@@ -852,6 +904,10 @@
         "cbTrueColorer": {
             "en": [
                 "Enable TrueColor (aka XTerm-256) support\r\n",
+                "https://conemu.github.io/en/Xterm256Colors.html"
+            ],    
+            "ru": [
+                "Включить поддержку TrueColor (он же XTerm-256)\r\n",
                 "https://conemu.github.io/en/Xterm256Colors.html"
             ],
             "id": 1578
@@ -1065,6 +1121,10 @@
             "en": [
                 "Log shell calls (progress creations, library loadings, etc.)\r\n",
                 "‘Inject ConEmuHk’ is required"
+            ],        
+            "ru": [
+                "Записывать вызовы оболочки (создание прогресса, загрузка библиотеки и т.д.) \r\n",
+                "Требуется ‘Inject ConEmuHk’"
             ],
             "id": 1748
         },
@@ -1394,6 +1454,10 @@
             "en": [
                 "Far Manager macro for EMenu of file panel selected items\r\n",
                 "Clear field to reset to defaults"
+            ],          
+            "ru": [
+                "Макрос Far Manager для EMenu выбранных элементов панели файлов\r\n",
+                "Очистить поле, чтобы восстановить настройки по умолчанию"
             ],
             "id": 2075
         },
@@ -5423,6 +5487,10 @@
             "en": [
                 "[HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor]\n",
                 "Current command stored in registry ‘AutoRun’ (HKLM value is not processed here):"
+            ],          
+            "ru": [
+                "[HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor]\n",
+                "Текущая команда хранится в реестре ‘AutoRun’ (здесь HKLM значение не обрабатывается):"
             ],
             "id": 2956
         },
