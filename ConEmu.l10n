@@ -40,6 +40,10 @@
             "en": [
                 "When several panes (splits) are visible simultaneously activate (put focus in) console with mouse hover,\r\n",
                 "3rd-state - match ‘Active window tracking’ system settings"
+            ],         
+            "ru": [
+                "Когда несколько панелей (разделений) видны одновременно, активируйте (поместите фокус в) консоль с наведением мыши,\r\n",
+                "3rd-state - соответствует системным настройкам ‘Активное отслеживание окон’"
             ],
             "id": 2601
         },
@@ -52,6 +56,10 @@
             "en": [
                 "When this is checked - specified suffix will be appended in tabs titles, started ‘As administrator’.\r\n",
                 "You may choose insertion place with ‘%a’ var, otherwise suffix will be at the tab end."
+            ],         
+            "ru": [
+                "Когда отмечено - указанный суффикс будет добавляться в заголовки вкладок и запускается ‘Как администратор’.\r\n",
+                "Вы можете выбрать место вставки с помощью переменной ‘%a’, в противном случае суффикс будет в конце вкладки."
             ],
             "id": 2110
         },
@@ -110,6 +118,11 @@
                 "Show background image instead standard\r\n",
                 "colors #0 and #1 (black and blue)\r\n",
                 "3rd-state - don't draw in viewer/editor"
+            ],        
+            "ru": [
+                "Показывать фоновое изображение вместо стандартного\r\n",
+                "цвета #0 и #1 (черный и синий)\r\n",
+                "3rd-state - не рисовать в средстве просмотра/редакторе"
             ],
             "id": 1699
         },
@@ -172,6 +185,10 @@
             "en": [
                 "By default ConEmu doesn't do SetUnhandledExceptionFilter in alternative servers (Far, Telnet, etc.)\r\n",
                 "But it may be enabled for debugging purposes"
+            ],        
+            "ru": [
+                "По умолчанию ConEmu не выполняет SetUnhandledExceptionFilter на альтернативных серверах (Far, Telnet и т.д.),\r\n",
+                "но может быть включено для целей отладки"
             ],
             "id": 2622
         },
@@ -199,6 +216,10 @@
             "en": [
                 "Delete word leftward to the cursor (ignored in Far),\r\n",
                 "3rd-state means ‘try to detect if console is in ReadConsole’, if you want to use this with bash - turn checkbox to ‘On’ (don't use third state)"
+            ],  
+            "ru": [
+                "Удалить слово слева от курсора (игнорируется в Far),\r\n",
+                "3rd-state означает ‘попытаться определить, находится ли консоль в ReadConsole’, если вы хотите использовать это с bash - установите флажок ‘On’ (не используйте 3rd-state)"
             ],
             "id": 2526
         },
@@ -233,6 +254,11 @@
                 "Try to erase selected region if possible\r\n",
                 "by posting sequence of Del/BS to console.\r\n",
                 "Implement ‘usual’ hotkeys Ctrl+X, Shift+Del, BS and Del."
+            ],         
+            "ru": [
+                "Попробуйте стереть выбранный регион, если это возможно,\r\n",
+                "отправив последовательность Del/BS на консоль.\r\n",
+                "Реализуйте ‘обычные’ горячие клавиши Ctrl+X, Shift+Del, BS и Del."
             ],
             "id": 3030
         },
@@ -282,6 +308,11 @@
                 "ON - cursor emulates console behaviour (sort of colors inversion)\r\n",
                 "OFF - cursor is white (color#15) on dark backgrounds,\r\n",
                 "and black (color#0) on light backgrounds; also this checkbox affect appearance of ‘Block’ cursors"
+            ],           
+            "ru": [
+                "ON - курсор имитирует поведение консоли (сортировка цветов)\r\n",
+                "OFF - белый курсор (цвет#15) на темном фоне\r\n",
+                "и черный (цвет#0) на светлом фоне; этот флажок также влияет на внешний вид курсоров ‘Блок’"
             ],
             "id": 1210
         },
@@ -333,6 +364,11 @@
                 "Forced \"Copy\" action as default,\r\n",
                 "You can use Ctrl, Shift or Alt\r\n",
                 "during drag to change action"
+            ],       
+            "ru": [
+                "Принудительное действие \"Копировать по умолчанию\",\r\n",
+                "Вы можете использовать Ctrl, Shift или Alt\r\n",
+                "во время перетаскивания, чтобы изменить действие"
             ],
             "id": 2287
         },
@@ -377,6 +413,11 @@
                 "Off - ConEmu will NOT receive external drops\r\n",
                 "On - Drops allowed (Far confirmation dialog)\r\n",
                 "3rd-state - same as \"On\", but w/o confirmation"
+            ],          
+            "ru": [
+                "Выкл. - ConEmu НЕ будет получать внешние пропуски.\r\n",
+                "On - Drops разрешены (диалоговое окно подтверждения Far)\r\n",
+                "3rd-state - то же, что \"Вкл.\", но без подтверждения"
             ],
             "id": 1502
         },
@@ -459,6 +500,10 @@
             "en": [
                 "You can specify additional font for drawing pseudographics or specified range of symbols.\r\n",
                 "E.g. main - \"Consolas\", additional - \"Segoe UI\"."
+            ],        
+            "ru": [
+                "Вы можете указать дополнительный шрифт для псевдографики или заданный диапазон символов.\r\n",
+                "Например. основной - \"Consolas\", дополнительный - \"Segoe UI\"."
             ],
             "id": 1207
         },
@@ -516,7 +561,7 @@
         },
         "cbInjectConEmuHkFast": {
             "en": "Required for many features (ANSI X3.64, -new_console argument, GUI apps in ConEmu tabs, ...) and elimination of several problems (crash in Windows 8, telnet in Windows 7, dialogs and menus behind of ConEmu window, chcp hungs, and so on...)",
-            "ru": "Требуется для многих функций (ANSI X3.64, -new_console аргумент, GUI приложения во вкладках ConEmu, ...) и устранения ряда проблем (сбой в Windows 8, telnet в Windows 7, диалоги и меню за окном ConEmu, chcp hungs и так далее...)",
+            "ru": "Требуется для многих функций (ANSI X3.64, -new_console, GUI приложения во вкладках ConEmu, ...) и устранения ряда проблем (сбой в Windows 8, telnet в Windows 7, диалоги и меню за окном ConEmu, chcp hungs и так далее...)",
             "id": 2098
         },
         "cbInsideName": {
@@ -619,6 +664,11 @@
                 "Confirm new console creation.\r\n",
                 "You may change cmd line for it, or turn on \"Run as...\" feature.\r\n",
                 "Even if unchecked, You may hold \"Shift\" to display dialog."
+            ],        
+            "ru": [
+                "Подтвердите создание новой консоли.\r\n",
+                "Вы можете изменить для этого строку cmd или включить функцию \"Запуск от имени...\".\r\n",
+                "Даже если не отмечено, вы можете удерживать \"Shift\" для отображения диалога."
             ],
             "id": 1546
         },
@@ -948,6 +998,11 @@
                 "Use Alt+NumpadAdd+HexNumbers to enter unicode symbol by its hex codebase\r\n",
                 "Ignored in Far Manager\r\n",
                 "Has no effect on explicit shortcut"
+            ],       
+            "ru": [
+                "Используйте Alt+NumpadAdd+HexNumbers для ввода символа юникода по его шестнадцатеричной кодовой базе\r\n",
+                "Игнорируется в Far Manager.\r\n",
+                "Не влияет на явные ярлыки."
             ],
             "id": 3061
         },
@@ -966,6 +1021,10 @@
             "en": [
                 "Allow injecting ConEmuHk.dll in every process of ConEmu console window.\r\n",
                 "Required for many features (ANSI X3.64, -new_console argument, GUI apps in ConEmu tabs, ...) and elimination of several problems (telnet in Windows 7, dialogs and menus behind of ConEmu window, chcp hungs, and so on...)"
+            ],       
+            "ru": [
+                "Разрешить внедрение ConEmuHk.dll в каждый процесс окна консоли ConEmu.\r\n",
+                "Требуется для многих функций (ANSI X3.64, -new_console, приложений с графическим интерфейсом на вкладках ConEmu, ...) и устранения некоторых проблем (telnet в Windows 7, диалоги и меню за окном ConEmu, chcp и т.д...)"
             ],
             "id": 1752
         },
@@ -1048,6 +1107,11 @@
                 "Choose required pressed modifier for actions\r\n",
                 "<No-Mod> is ignored in Far Manager to bypass\r\n",
                 " mouse button clicks to console"
+            ],      
+            "ru": [
+                "Выберите требуемый модификатор нажатия для действий\r\n",
+                "<No-Mod> игнорируется в Far Manager для обхода\r\n",
+                " нажатий кнопок мыши на консоли"
             ],
             "id": 1645
         },
@@ -1455,6 +1519,10 @@
             "en": [
                 "Format of ‘cd’, default is ‘\\eCD /d \\1\\n’.\r\n",
                 "\\e - ESC, \\b - BS, \\n - ENTER, \\1 - \"dir\", \\2 - \"bash dir\"."
+            ],     
+            "ru": [
+                "Формат ‘cd’, по умолчанию ‘\\eCD /d \\1\\n’.\r\n",
+                "\\e - ESC, \\b - BS, \\n - ENTER, \\1 - \"dir\", \\2 - \"bash dir\"."
             ],
             "id": 2479
         },
@@ -1554,6 +1622,10 @@
             "en": [
                 "Macro for saving all opened Far Manager modified editors, when you choose ‘Save all’ from tab context menu\r\n",
                 "Clear field to reset to defaults"
+            ],           
+            "ru": [
+                "Макрос для сохранения всех открытых модифицированных редакторов Far Manager, когда вы выбираете ‘Сохранить все’ в контекстном меню вкладки\r\n",
+                "Очистить поле для сброса на значения по умолчанию"
             ],
             "id": 2079
         },
@@ -1589,6 +1661,10 @@
             "en": [
                 "When you double click on the free space of tab bar...\r\n",
                 "‘Auto’ means ‘Maximize/Restore’ when caption is hidden and ‘Open new shell’ when caption is visible"
+            ],       
+            "ru": [
+                "Если дважды щелкнуть на свободное место на панели вкладок ... \r\n",
+                "‘Авто’ означает ‘Развернуть/Восстановить’, когда заголовок скрыт, и ‘Открыть новую оболочку’, когда заголовок виден."
             ],
             "id": 2600
         },
@@ -1626,6 +1702,11 @@
                 "When something was changed in the inactive console\r\n",
                 "ConEmu may show that in the tab label\r\n",
                 "Set or clear this suffix appended to the tab template"
+            ],           
+            "ru": [
+                "Когда что-то изменилось в неактивной консоли,\r\n",
+                "ConEmu может показать, что в ярлыке вкладки\r\n",
+                "Установите или очистите этот суффикс, добавленный к шаблону вкладки"
             ],
             "id": 2738
         },
@@ -1767,6 +1848,11 @@
                 "URL to retrieve latest version information,\r\n",
                 "default is: https://conemu.github.io/version.ini\r\n",
                 "Erase text box to revert to default URL."
+            ],         
+            "ru": [
+                "URL-адрес для получения информации о последней версии,\r\n",
+                "по умолчанию: https://conemu.github.io/version.ini\r\n",
+                "Стереть текст, для возврата к URL-адресу по умолчанию."
             ],
             "id": 2052
         },
@@ -1776,6 +1862,12 @@
                 "Use numbers for size in cells\r\n",
                 "Use percent sign (e.g. ‘40%’) for monitor-relative size\r\n",
                 "Use ‘px’ suffix (e.g. ‘800px’) for strict pixel size"
+            ],        
+            "ru": [
+                "Высота окна консоли\r\n",
+                "Использовать числа для размера в ячейках\r\n",
+                "Использовать знак процента (например ‘40%’) для относительного размера монитора\r\n",
+                "Использовать суффикс ‘px’ (например, 800px) для строгого размера пикселя"
             ],
             "id": 2282
         },
@@ -1785,6 +1877,12 @@
                 "Use numbers for size in cells\r\n",
                 "Use percent sign (e.g. ‘40%’) for monitor-relative size\r\n",
                 "Use ‘px’ suffix (e.g. ‘800px’) for strict pixel size"
+            ],          
+            "ru": [
+                "Ширина окна консоли\r\n",
+                "Использовать числа для размера в ячейках\r\n",
+                "Использовать знак процента (например ‘40%’) для относительного размера монитора\r\n",
+                "Использовать суффикс ‘px’ (например, 800px) для строгого размера пикселя"
             ],
             "id": 2281
         },
