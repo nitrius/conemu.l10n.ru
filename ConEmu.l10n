@@ -607,6 +607,13 @@
                 "console commands. Full console output\r\n",
                 "(up to specified count of lines) will be\r\n",
                 "available via Far macro (CtrlO.reg)"
+            ],   
+            "ru": [
+                "Авторасширяет высоту буфера до указанного\r\n",
+                "числа строк, в то время как Far выполняет\r\n",
+                "консольные команды. Полный вывод на консоль\r\n",
+                "(до указанного количества строк) будет доступен\r\n",
+                "через макрос Far (CtrlO.reg)"
             ],
             "id": 1534
         },
@@ -616,6 +623,12 @@
                 "Right click on ‘Close window button’\r\n",
                 "in ConEmu title for minimize to TSA,\r\n",
                 "when this checkbox is OFF"
+            ],      
+            "ru": [
+                "Автоматическое сворачивание в область состояния панели задач (TSA)\r\n",
+                "Щелкните правой кнопкой мыши по кнопке ‘Закрыть окно’\r\n",
+                "в заголовке ConEmu, для сворачивания в TSA,\r\n",
+                "когда этот флажок выключен"
             ],
             "id": 1507
         },
@@ -725,6 +738,12 @@
                 "On - EMenu called instead of RClick\r\n",
                 "3rd-state - Short RClick passed, Long RClick -> EMenu\r\n",
                 "Warning! This may conflict with RDrag"
+            ],        
+            "ru": [
+                "Off - все RClicks переданы на консоль\r\n",
+                "On - вызывается EMenu вместо RClick\r\n",
+                "3rd-state - Short RClick передается, Long RClick -> EMenu\r\n",
+                "Предупреждение! Это может конфликтовать с RDrag"
             ],
             "id": 1696
         },
@@ -912,6 +931,12 @@
                 "You may still switch between tabs in\r\n",
                 "standard manner using Left/Right\r\n",
                 "(after CtrlTab), while Ctrl is still presses."
+            ],       
+            "ru": [
+                "Сначала переключайтесь между последними вкладками.\r\n",
+                "Вы по-прежнему можете переключаться между вкладками \r\n",
+                "стандартным способом, используя Left/Right\r\n",
+                "(потом CtrlTab), пока Ctrl все еще нажат."
             ],
             "id": 1533
         },
@@ -1339,6 +1364,12 @@
                 "which will be replaced with background image,\r\n",
                 "default is ‘#0 #1’ Black and Blue.\r\n",
                 "Use \"*\" (asterisk) for Far Manager panels background color."
+            ],            
+            "ru": [
+                "Выберите индексы цвета фона,\r\n",
+                "которые будут заменены фоновым изображением,\r\n",
+                "по умолчанию ‘#0 #1’ Черный и синий.\r\n",
+                "Используйте \"*\" (звездочку) для цвета фона панелей Far Manager."
             ],
             "id": 1575
         },
@@ -1360,6 +1391,13 @@
                 "Each command creates tab or pane on group start\r\n",
                 "Mark active console tab with '>' sign\r\n",
                 "Start console 'As Admin' with '*' sign"
+            ],          
+            "ru": [
+                "Команды (приложение, аргументы, ‘-new_console’)\r\n",
+                "Разделяйте команды пустыми строками\r\n",
+                "Каждая команда создает вкладку или панель при запуске группы\r\n",
+                "Пометить активную вкладку консоли знаком '>'\r\n",
+                "Запустить консоль от имени администратора со знаком '*'"
             ],
             "id": 2118
         },
@@ -1478,6 +1516,13 @@
                 "Use ‘!ConEmuWorkDir!’ for the directory,\r\n",
                 "but not a clicked file\r\n",
                 "Use ‘-reuse’ to reuse the existing ConEmu window instead of creating new one. E.g. ‘-reuse -run {cmd}’"
+            ],         
+            "ru": [
+                "Укажите свою оболочку здесь (cmd, far и т. д.)\r\n",
+                "Использовать макрос ‘%1’ для элемента ‘клик’\r\n",
+                "Используйте ‘!ConEmuWorkDir!’ для каталога,\r\n",
+                "но не файл, по которому щелкнули\r\n",
+                "Используйте ‘-reuse’ для повторного использования существующего окна ConEmu вместо создания нового. Например  ‘-reuse -run {cmd}’"
             ],
             "id": 2391
         },
@@ -1512,6 +1557,12 @@
                 "Use ‘%1’ macro for ‘clicked’ item\r\n",
                 "Use ‘!ConEmuWorkDir!’ for the directory,\r\n",
                 "but not a clicked file"
+            ],         
+            "ru": [
+                "Укажите свою оболочку здесь (cmd, far и т. д.)\r\n",
+                "Использовать макрос ‘%1’ для элемента ‘клик’\r\n",
+                "Используйте ‘!ConEmuWorkDir!’ для каталога,\r\n",
+                "но не файл, по которому щелкнули"
             ],
             "id": 2386
         },
@@ -1560,6 +1611,13 @@
                 "Render: Average duration of rendering text to memory DC\r\n",
                 "Blt: Average duration of blit operation from memory DC to screen DC\r\n",
                 "RPS: Average counts of reads real console data per second"
+            ],         
+            "ru": [
+                "FPS: кадры в секунду\r\n",
+                "Data: средняя продолжительность передачи данных из реальной в виртуальную консоль\r\n",
+                "Render: средняя продолжительность рендеринга текста в память DC\r\n",
+                "Blt: средняя продолжительность операции блитования от памяти DC до экрана DC\r\n",
+                "RPS: среднее число операций чтения реальных данных консоли в секунду"
             ],
             "id": 2602
         },
@@ -1694,6 +1752,12 @@
                 "ConEmu may flash tab icon in that case\r\n",
                 "Set ‘-1’ to flash infinitely\r\n",
                 "Use odd values to leave tab in highlighted state"
+            ],        
+            "ru": [
+                "Когда что-то изменилось в неактивной консоли\r\n",
+                "В этом случае ConEmu может мигать значком вкладки.\r\n",
+                "Установите ‘-1’, чтобы мигать бесконечно\r\n",
+                "Используйте нечетные значения, чтобы оставить вкладку в выделенном состоянии"
             ],
             "id": 2739
         },
