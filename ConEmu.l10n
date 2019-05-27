@@ -3540,6 +3540,11 @@
             "ru": "Загружать шрифты из папки ConEmu",
             "id": 1550
         },
+        "cbAutoReloadEnvironment": {
+            "en": "Reload environment variables automatically",
+            "ru": "Перезагружать переменные среды автоматически",
+            "id": 3106 
+        },
         "cbAutoSaveSizePos": {
             "en": "Auto save window size and position on exit",
             "ru": "Запоминать размер и положение окна при выходе",
