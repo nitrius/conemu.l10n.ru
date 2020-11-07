@@ -6903,11 +6903,13 @@
         },
         "lng_BufferHeightOffHint": {
             "en": "BufferHeight mode is off",
+            "ru": "Режим BufferHeight выключен",
             "pl": "Tryb BufferHeight jest wyłączony",
             "id": 197
         },
         "lng_BufferHeightOnHint": {
             "en": "BufferHeight mode is ON (scrolling enabled)",
+            "ru": "Режим BufferHeight включен (прокрутка включена)",
             "pl": "Tryb BufferHeight jest włączony (przewijanie włączone)",
             "id": 196
         },
@@ -6937,6 +6939,7 @@
         },
         "lng_ConfirmCloseBtnConsole": {
             "en": "Close 1 console",
+            "ru": "Закрыть 1 консоль",
             "pl": "Zamknij 1 konsole",
             "id": 205
         },
@@ -7001,6 +7004,7 @@
         },
         "lng_ConfirmKillButShellQ": {
             "en": "Terminate all but shell processes?",
+            "ru": "Завершить все процессы, кроме оболочки?",
             "pl": "Zakończyć wszystkie procesy oprócz procesów powłoki?",
             "id": 183
         },
@@ -7271,6 +7275,7 @@
         },
         "lng_MenuAlwaysOnTop": {
             "en": "Al&ways on top",
+            "ru": "Всегда сверху",
             "pl": "Za&wsze na górze",
             "id": 153
         },
@@ -7519,6 +7524,7 @@
         },
         "lng_MenuNewConsole": {
             "en": "New console dialog...",
+            "ru": "Диалог новое окно консоли...",
             "pl": "Nowe okno konsoli...",
             "id": 115
         },
@@ -7560,11 +7566,13 @@
         },
         "lng_MenuPopupPalettes": {
             "en": "&View (palettes)",
+            "ru": "Просмотр (палитры)",
             "pl": "Widok (palety)",
             "id": 143
         },
         "lng_MenuPopupRestart": {
             "en": "&Restart or duplicate",
+            "ru": "Перезагрузить или дублировать",
             "pl": "Uruchom ponownie lub zduplikuj",
             "id": 112
         },
@@ -7671,6 +7679,7 @@
         },
         "lng_MenuSysNewConsole": {
             "en": "New console dialog...",
+            "ru": "Диалог новое окно консоли...",
             "pl": "Nowe okno konsoli...",
             "id": 157
         },
@@ -7757,6 +7766,7 @@
         },
         "lng_NewConsoleStartBtn": {
             "en": "&Start",
+            "ru": "Начало",
             "pl": "Początek",
             "id": 190
         },
@@ -7925,6 +7935,11 @@
                 "Warning!\n",
                 "This operation could harm further output of applications.\n",
                 "It's better to execute a dedicated command as `clear` or `cls`."
+            ],
+            "ru": [
+                "Предупреждение!\n",
+                "Эта операция может повредить дальнейший вывод приложений.\n",
+                "Лучше выполнять специальную команду как `clear` или` cls`."
             ],
             "pl": [
                 "Ostrzeżenie\n",
@@ -9150,6 +9165,7 @@
         },
         "cbConfirmResetTerminal": {
             "en": "Confirm terminal reset",
+            "ru": "Подтвердите сброс терминала",
             "pl": "Potwierdź resetowanie terminala",
             "id": 2690
         },
@@ -13311,6 +13327,7 @@
         },
         "stConsoleLeftTop": {
             "en": "Left x Top:",
+            "ru": "Слева x Сверху:",
             "pl": "Lewa x Góra:",
             "id": 2946
         },
